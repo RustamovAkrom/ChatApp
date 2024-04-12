@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function () {
 
     const messagesContainsers = document.documentElement.querySelector("#messages_container");
     const messageinput = document.querySelector("[name=message_input]")
@@ -15,5 +15,5 @@ document.addEventListener('DOMContentLoaded', function(){
             messageinput.value = "";
         };
     };
-  
+
 }, false)

@@ -1,5 +1,13 @@
 from django.contrib import admin
-from apps.chat.models import Account, Chat, Group, Channel, ChatMessage, GroupMessage, ChannelMessage
+from apps.chat.models import (
+    Account,
+    Chat,
+    Group,
+    Channel,
+    ChatMessage,
+    GroupMessage,
+    ChannelMessage,
+)
 
 
 admin.site.register(Account)
